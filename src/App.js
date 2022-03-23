@@ -7,9 +7,9 @@ function App() {
     <div className="App">
       <MyNavbar />
       <Hero />
-      <Sections />
-      <Sections />
-      <Sections />
+      <Sections categoryId={2} />
+      <Sections categoryId={1} />
+      <Sections categoryId={5} />
     </div>
   );
 }
